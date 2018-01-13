@@ -1,0 +1,54 @@
+h1{
+	text-align: center;
+}
+
+p{
+	text-align: center;
+}
+
+/* This is a css comment */
+
+.page-header{
+	/* use hex values for non standard colors*/
+
+	background-color: #FFA500;
+	color: white;
+	margin: 50px;
+}
+
+.column{
+	float: left;
+	width: 30%;
+	padding: 10px;
+	height: 300px;
+	text-align: center;
+}
+
+.column img{
+	height: 80%;
+	width: 100%;
+}
+
+img{
+	border-radius: 25px;
+}
+
+img:hover{
+	/* x y height width color*/
+	box-shadow: 0 0 4px 3px black;
+}
+
+.footer{
+	position: fixed;
+	text-align: center;
+	background-color: #FFA500;
+	color: white;
+	bottom: 0;
+	width: 100%;
+}
+@media (max-width: 600px){
+	.column{
+		width: 100%;
+	}
+}
+
